@@ -346,6 +346,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.our-crew .social-links-list {
   margin-bottom: 30px;
 }
 .social-links-list .link {
@@ -376,7 +378,6 @@ body {
 .regular-clients-list {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .regular-clients-list .link {
   display: flex;
@@ -479,10 +480,11 @@ body {
 }
 .footer-flexbox {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 .join-us {
+  margin-top: 12px;
   margin-left: 70px;
 }
 .join-us .text {
@@ -506,8 +508,9 @@ body {
   color: #fff;
 }
 .footer-sign-in {
+  margin-top: 12px;
   margin-left: 93px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .footer-sign-in .text {
   margin-bottom: 20px;
