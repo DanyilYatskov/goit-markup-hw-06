@@ -179,7 +179,7 @@ body {
 }
 .adress-nav .link .contacts-icon {
   margin-right: 10px;
-  --color2: currentColor;
+  --color3: currentColor;
   --color5: currentColor;
 }
 /* Hero section styles */
@@ -368,8 +368,8 @@ body {
   color: white;
 }
 .social-links-list .link .social-icon {
+  --color1: currentColor;
   --color4: currentColor;
-  --color3: currentColor;
 }
 
 /* regular-clients section styles */
@@ -392,9 +392,7 @@ body {
   margin-left: 30px;
 }
 .regular-clients-list .link .company-logo {
-  /* --color3: var(--icons-gray);
-  --color2: var(--icons-gray); */
-  --color2: currentColor;
+  --color4: currentColor;
   --color3: currentColor;
 }
 .regular-clients-list .link:focus,
@@ -440,9 +438,14 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 50%;
+  transition: fill 250ms var(--animation-timing);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.modal-close:hover,
+.modal-close:focus {
+  fill: var(--emphasis-color);
 }
 /* Footer Styles */
 .footer {
@@ -477,6 +480,7 @@ body {
 .footer-flexbox {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .join-us {
   margin-left: 70px;
@@ -500,6 +504,65 @@ body {
 .join-us .social-links-list .link:focus {
   background-color: var(--emphasis-color);
   color: #fff;
+}
+.footer-sign-in {
+  margin-left: 93px;
+  margin-bottom: 30px;
+}
+.footer-sign-in .text {
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.sign-in-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-sign-in .sign-in-mail {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--footer-background-color);
+  width: 358px;
+  height: 50px;
+}
+.footer-sign-in .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  transition: fill 2520ms var(--animation-timing);
+}
+.footer-sign-in .button .sign-in-icon {
+  margin-left: 10px;
+  fill: currentColor;
+}
+.footer-sign-in .button:hover,
+.footer-sign-in .button:focus {
+  color: var(--emphasis-color);
+  fill: var(--emphasis-color);
+  background-color: var(--page-background-color);
 }
 /* Portfolio.html personal styles */
 

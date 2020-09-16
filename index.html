@@ -510,12 +510,9 @@
         <div class="modal">
           <p>Privet</p>
           <button type="button" class="button modal-close" data-modal-close>
-            <img
-              src="./images/close-black.svg"
-              alt="Закрыть"
-              width="18"
-              height="18"
-            />
+            <svg class="modal-close-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-close-black"></use>
+            </svg>
           </button>
         </div>
       </div>
@@ -601,6 +598,23 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="footer-sign-in">
+            <p class="text">Подпишитесь на рассылку</p>
+            <form class="sign-in-form">
+              <input
+                type="mail"
+                name="mail"
+                class="sign-in-mail"
+                placeholder="E-mail"
+              />
+              <button type="button" class="button">
+                Подписаться
+                <svg class="sign-in-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
