@@ -56,7 +56,8 @@ body {
 .button {
   border: none;
   transition: color 250ms var(--animation-timing),
-    background-color 250ms var(--animation-timing);
+    background-color 250ms var(--animation-timing),
+    fill 250ms var(--animation-timing);
   cursor: pointer;
 }
 .list {
@@ -555,7 +556,6 @@ body {
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
   color: #ffffff;
-  transition: fill 2520ms var(--animation-timing);
 }
 .footer-sign-in .button .sign-in-icon {
   margin-left: 10px;
@@ -564,7 +564,7 @@ body {
 .footer-sign-in .button:hover,
 .footer-sign-in .button:focus {
   color: var(--emphasis-color);
-  fill: var(--emphasis-color);
+  /* fill: var(--emphasis-color); */
   background-color: var(--page-background-color);
 }
 /* Portfolio.html personal styles */
