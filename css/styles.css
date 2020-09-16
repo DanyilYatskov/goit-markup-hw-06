@@ -508,12 +508,12 @@ body {
   background-color: var(--emphasis-color);
   color: #fff;
 }
-.footer-sign-in {
+.footer-sign {
   margin-top: 12px;
   margin-left: 93px;
   /* margin-bottom: 30px; */
 }
-.footer-sign-in .text {
+.footer-sign .text {
   margin-bottom: 20px;
   font-family: Roboto;
   font-style: normal;
@@ -524,12 +524,12 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.sign-in-form {
+.sign-form {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer-sign-in .sign-in-mail {
+.footer-sign .sign-mail {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -538,7 +538,7 @@ body {
   width: 358px;
   height: 50px;
 }
-.footer-sign-in .button {
+.footer-sign .button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -557,12 +557,12 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-.footer-sign-in .button .sign-in-icon {
+.footer-sign .button .sign-icon {
   margin-left: 10px;
   fill: currentColor;
 }
-.footer-sign-in .button:hover,
-.footer-sign-in .button:focus {
+.footer-sign .button:hover,
+.footer-sign .button:focus {
   color: var(--emphasis-color);
   /* fill: var(--emphasis-color); */
   background-color: var(--page-background-color);
