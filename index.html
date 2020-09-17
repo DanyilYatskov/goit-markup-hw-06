@@ -515,28 +515,34 @@
           </button>
           <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
           <form class="sign-in-form">
-            <label class="sign-in-name-label">
+            <label class="sign-in-name-label label">
               <span class="text">Имя</span>
-              <input type="text" name="name" class="sign-in-name" />
-              <svg class="sign-in-name-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#icon-person-black"></use>
-              </svg>
+              <div class="input-container">
+                <input type="text" name="name" class="sign-in-name input" />
+                <svg class="icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#icon-person-black"></use>
+                </svg>
+              </div>
             </label>
-            <label class="sign-in-phone-label">
+            <label class="sign-in-phone-label label">
               <span class="text">Телефон</span>
-              <input type="text" name="tel" class="sign-in-phone" />
-              <svg class="sign-in-phone-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#icon-phone-black"></use>
-              </svg>
+              <div class="input-container">
+                <input type="text" name="tel" class="sign-in-phone input" />
+                <svg class="icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+                </svg>
+              </div>
             </label>
-            <label class="sign-in-email-label">
+            <label class="sign-in-email-label label">
               <span class="text">Почта</span>
-              <input type="text" name="email" class="sign-in-email" />
-              <svg class="sign-in-email-icon" width="18" height="18">
-                <use href="./images/symbol-defs.svg#icon-email-black"></use>
-              </svg>
+              <div class="input-container">
+                <input type="text" name="email" class="sign-in-email input" />
+                <svg class="icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#icon-email-black"></use>
+                </svg>
+              </div>
             </label>
-            <label class="sign-in-comments-label">
+            <label class="sign-in-comments-label label">
               <span class="text">Комментарий</span>
               <textarea
                 name="comments"
@@ -545,7 +551,7 @@
                 placeholder="Введите текст"
               ></textarea>
             </label>
-            <label class="sign-in-agreement-label">
+            <label class="sign-in-agreement-label label">
               <input
                 type="checkbox"
                 name="agreement"
