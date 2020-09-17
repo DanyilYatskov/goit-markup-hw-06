@@ -488,11 +488,11 @@ body {
   color: #757575;
 }
 .sign-in-form .label {
+  position: relative;
   display: block;
   margin-bottom: 10px;
 }
 .sign-in-form .input {
-  /* box-sizing: border-box; */
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -501,14 +501,14 @@ body {
   padding-left: 42px;
   cursor: pointer;
 }
-.sign-in-form .input-container {
+/* .sign-in-form .input-container {
   position: relative;
-}
+} */
 .sign-in-form .icon {
   position: absolute;
   left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 32px;
+  /* transform: translateY(-50%); */
   transition: fill 250ms var(--animation-timing);
 }
 .sign-in-form .sign-in-name:focus,
