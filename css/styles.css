@@ -650,11 +650,11 @@ body {
 }
 .footer-flexbox {
   display: flex;
-  /* align-items: center; */
+  align-items: baseline;
   justify-content: center;
 }
 .join-us {
-  margin-top: 12px;
+  /* margin-top: 12px; */
   margin-left: 70px;
 }
 .join-us .text {
@@ -678,7 +678,7 @@ body {
   color: #fff;
 }
 .footer-sign {
-  margin-top: 12px;
+  /* margin-top: 12px; */
   margin-left: 93px;
   /* margin-bottom: 30px; */
 }
