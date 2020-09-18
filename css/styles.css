@@ -48,6 +48,13 @@ body {
   background-color: #fff;
   z-index: 99;
 } */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 .link {
   text-decoration: none;
   transition: color 250ms var(--animation-timing),
@@ -550,10 +557,10 @@ body {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.sign-in-form .sign-in-agreement {
+/* .sign-in-form .sign-in-agreement {
   appearance: none;
   position: absolute;
-}
+} */
 .sign-in-agreement-label .icon-check {
   display: inline-block;
   width: 16px;
