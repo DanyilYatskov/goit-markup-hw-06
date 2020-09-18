@@ -840,14 +840,14 @@ body {
 }
 .our-projects-list .thumb {
   position: relative;
-  /* height: 294px; */
+  height: 294px;
   overflow: hidden;
 }
-.our-projects-list .item:hover .signature,
-.our-projects-list .item:focus .signature {
+.our-projects-list .item:hover .signature-container,
+.our-projects-list .item:focus .signature-container {
   transform: translateY(0);
 }
-.our-projects-list .signature {
+.our-projects-list .signature-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -861,8 +861,10 @@ body {
   padding-bottom: 63px;
   margin: 0;
   background-color: rgba(33, 150, 243, 0.9);
-
+}
+.our-projects-list .signature {
   font-family: Roboto;
+  margin: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
