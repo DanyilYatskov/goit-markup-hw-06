@@ -290,15 +290,20 @@ body {
 }
 .what-we-do-list .item {
   position: relative;
+  height: 294px;
+}
+.what-we-do-list .text-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .what-we-do-list .text {
-  position: absolute;
-  bottom: 3px;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  width: 100%;
-  background-color: rgba(47, 48, 58, 0.8);
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
